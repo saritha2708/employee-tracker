@@ -6,7 +6,7 @@
   ## Description
 
   This is a command-line application where you can view and manage the departments, roles, and employees in the company using Node.js, Inquirer and MySQL.   
-  [Click here for the walkthrough video](https://drive.google.com/file/d/1ZMi05DQLiPv65AQ5xVWjTO6u0aNbsWNX/view?usp=share_link). 
+  [Click here for the walkthrough video](https://drive.google.com/file/d/1b3z4EeeopQCqMIEz5IJLFlHSmON-uB9T/view?usp=share_link). 
 
   ## Table of Contents
 

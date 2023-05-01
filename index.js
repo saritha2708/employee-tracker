@@ -1,9 +1,6 @@
 const CLI = require('./lib/cli');
-const questions = require('./lib/Questions');
 
+// Start the CLI
+// promtUser() is a static method of the CLI class
+CLI.promtUser();
 
-CLI.askQuestions();
-
-
-
-// console.log(response);

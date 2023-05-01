@@ -11,7 +11,7 @@ CREATE TABLE department (
 
 CREATE TABLE role (
   id INT NOT NULL AUTO_INCREMENT,
-  title VARCHAR(30) NOT NULL,
+  title VARCHAR(30) NOT NULL UNIQUE,
   salary DECIMAL(10,2) NOT NULL,
   department_id INT NOT NULL,
   PRIMARY KEY (id),
@@ -29,10 +29,4 @@ CREATE TABLE employee (
   FOREIGN KEY (manager_id) REFERENCES employee(id)
 );
 
-SELECT * FROM department;
-SELECT * FROM role;
-SELECT * FROM employee;
-
-
-
-UPDATE employee SET role_id = 3 WHERE id = 1;  
+ 
